@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#arriba{
+    width: 80%;
+    height: 200px;
+    background-color: lightpink;
+    border: 1px solid black;
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 200px;
+}
+
+#arriba h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+ form select,button,input{
+    height: 30px;
+    font-size: 20px;
+}
+
+#abajo{
+    width: 80%;
+   
+    background-color: lightpink;
+    border: 1px solid black;
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin-top:10px;
+    justify-content: space-between;
+    font-size: 25px;
+
+}
+
+.flex button{
+    margin-left:20px
+}
